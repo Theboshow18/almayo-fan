@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap");
+
+#fun-facts {
+  padding: 60px 0;
+  text-align: center;
+  font-family: "Playwrite VN", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px auto;
+  max-width: 800px;
+}
+#fun-facts h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #333;
+}
+#fun-facts li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.label1{
+    display: block;
+}
+#letter{
+    color: #a13737;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+#contact-me{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form{
+  background-color: #a13737;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#contact-me input, #contact-me textarea, #contact-me button{
+  padding: 10px;
+  border: none;
+  border-radius: 20px
+  
+}
+#contact-me button{
+  margin-top: 10px;
+  background-color: #b1d813;
+  cursor: pointer;
+
+}
+#contact-me button:hover{
+  background-color: #1568d6;
+  color: #ffffff;
+  box-shadow: #000000 0px 0px 1000px;
+
+}
+.almayo{
+display: flex;
+justify-content: center;
+}
+.image{
+  border-radius: 50px;
+
+}
+#students-life{
+  padding: 60px 0;
+  text-align: center;
+  font-family: "Playwrite VN", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.students-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  background-color: #b1d813;
+  padding-top: 20px;
+}
+.students-card{
+  /* padding: 10px; */
+  text-align: center;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+
+
+}
+.students-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  justify-items: center;
+
+}
